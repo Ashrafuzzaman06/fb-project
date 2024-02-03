@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width:980px;
+    margin: auto;
+    display:block;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+body,h1,h2,h3,h4,h5,h6,a,p,span{
+    font-family: 'AR One Sans', sans-serif;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+/* main css */
+
+.font-fb-pass{
+ background: #f1f0f0;
+ padding: 150px 0;
+}
+
+
+.bf-content-item{
+    width: 60%;
+}
+.bf-content-item img {
+    width: 320px;
+    margin-left: -28px;
+    margin-bottom: -13px;
+    margin-top: 60px;
+  }
+  .bf-content-item h2 {
+    font-weight: 500;
+    font-size: 28px;
+  }
+
+.bf-from-item{
+    width: 38%;
+    background: #fff;
+    box-shadow: 3px 4px 20px o rgba(0, 0, 0,.2);
+    border-radius: 8px;
+}
+.bf-from-item {
+    width: 38%;
+    background: #fff;
+    box-shadow: 3px 4px 20px o rgba(0, 0, 0,.2);
+    border-radius: 8px;
+  }
+.bf-fm-item {
+    padding: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+.bf-fm-item .jaman {
+    width: 100%;
+    font-size: 18px;
+    color: #767676;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  .bf-fm-item .login {
+    background: #742eff;
+    color: #fff;
+    display: inline-block;
+    padding: 12px 133px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 7px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+  }
+  .bf-fm-item .forget{
+    margin-bottom: 10px;
+  }
+  .bf-fm-item .forget:hover{
+    text-decoration: underline;
+  }
+
+  .new-account-cer {
+    margin: 30px 0;
+  }
+  .new-account-cer .new {
+    background: #55bd00;
+    color: #fff;
+    display: inline-block;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+  }
